@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1C492A1CB70B21004BE9AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C49291CB70B21004BE9AF /* AppDelegate.swift */; };
+		1C1C492C1CB70B21004BE9AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C492B1CB70B21004BE9AF /* ViewController.swift */; };
+		1C1C492F1CB70B21004BE9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1C492D1CB70B21004BE9AF /* Main.storyboard */; };
+		1C1C49311CB70B21004BE9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1C49301CB70B21004BE9AF /* Assets.xcassets */; };
+		1C1C49341CB70B21004BE9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1C49321CB70B21004BE9AF /* LaunchScreen.storyboard */; };
+		1C1C493F1CB70B21004BE9AF /* Litle_MonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C493E1CB70B21004BE9AF /* Litle_MonsterTests.swift */; };
+		1C1C494A1CB70B21004BE9AF /* Litle_MonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C49491CB70B21004BE9AF /* Litle_MonsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C1C493B1CB70B21004BE9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C1C491E1CB70B21004BE9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1C49251CB70B21004BE9AF;
+			remoteInfo = Litle_Monster;
+		};
+		1C1C49461CB70B21004BE9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C1C491E1CB70B21004BE9AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1C49251CB70B21004BE9AF;
+			remoteInfo = Litle_Monster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1C49261CB70B21004BE9AF /* Litle_Monster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Litle_Monster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1C49291CB70B21004BE9AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C1C492B1CB70B21004BE9AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C1C492E1CB70B21004BE9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C1C49301CB70B21004BE9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C1C49331CB70B21004BE9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C1C49351CB70B21004BE9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1C493A1CB70B21004BE9AF /* Litle_MonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Litle_MonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1C493E1CB70B21004BE9AF /* Litle_MonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litle_MonsterTests.swift; sourceTree = "<group>"; };
+		1C1C49401CB70B21004BE9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1C49451CB70B21004BE9AF /* Litle_MonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Litle_MonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1C49491CB70B21004BE9AF /* Litle_MonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litle_MonsterUITests.swift; sourceTree = "<group>"; };
+		1C1C494B1CB70B21004BE9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1C49231CB70B21004BE9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1C49371CB70B21004BE9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1C49421CB70B21004BE9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1C491D1CB70B21004BE9AF = {
+			isa = PBXGroup;
+			children = (
+				1C1C49281CB70B21004BE9AF /* Litle_Monster */,
+				1C1C493D1CB70B21004BE9AF /* Litle_MonsterTests */,
+				1C1C49481CB70B21004BE9AF /* Litle_MonsterUITests */,
+				1C1C49271CB70B21004BE9AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C1C49271CB70B21004BE9AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C1C49261CB70B21004BE9AF /* Litle_Monster.app */,
+				1C1C493A1CB70B21004BE9AF /* Litle_MonsterTests.xctest */,
+				1C1C49451CB70B21004BE9AF /* Litle_MonsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C1C49281CB70B21004BE9AF /* Litle_Monster */ = {
+			isa = PBXGroup;
+			children = (
+				1C1C49291CB70B21004BE9AF /* AppDelegate.swift */,
+				1C1C492B1CB70B21004BE9AF /* ViewController.swift */,
+				1C1C492D1CB70B21004BE9AF /* Main.storyboard */,
+				1C1C49301CB70B21004BE9AF /* Assets.xcassets */,
+				1C1C49321CB70B21004BE9AF /* LaunchScreen.storyboard */,
+				1C1C49351CB70B21004BE9AF /* Info.plist */,
+			);
+			path = Litle_Monster;
+			sourceTree = "<group>";
+		};
+		1C1C493D1CB70B21004BE9AF /* Litle_MonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C1C493E1CB70B21004BE9AF /* Litle_MonsterTests.swift */,
+				1C1C49401CB70B21004BE9AF /* Info.plist */,
+			);
+			path = Litle_MonsterTests;
+			sourceTree = "<group>";
+		};
+		1C1C49481CB70B21004BE9AF /* Litle_MonsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C1C49491CB70B21004BE9AF /* Litle_MonsterUITests.swift */,
+				1C1C494B1CB70B21004BE9AF /* Info.plist */,
+			);
+			path = Litle_MonsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C1C49251CB70B21004BE9AF /* Litle_Monster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1C494E1CB70B21004BE9AF /* Build configuration list for PBXNativeTarget "Litle_Monster" */;
+			buildPhases = (
+				1C1C49221CB70B21004BE9AF /* Sources */,
+				1C1C49231CB70B21004BE9AF /* Frameworks */,
+				1C1C49241CB70B21004BE9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Litle_Monster;
+			productName = Litle_Monster;
+			productReference = 1C1C49261CB70B21004BE9AF /* Litle_Monster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C1C49391CB70B21004BE9AF /* Litle_MonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1C49511CB70B21004BE9AF /* Build configuration list for PBXNativeTarget "Litle_MonsterTests" */;
+			buildPhases = (
+				1C1C49361CB70B21004BE9AF /* Sources */,
+				1C1C49371CB70B21004BE9AF /* Frameworks */,
+				1C1C49381CB70B21004BE9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1C493C1CB70B21004BE9AF /* PBXTargetDependency */,
+			);
+			name = Litle_MonsterTests;
+			productName = Litle_MonsterTests;
+			productReference = 1C1C493A1CB70B21004BE9AF /* Litle_MonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C1C49441CB70B21004BE9AF /* Litle_MonsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1C49541CB70B21004BE9AF /* Build configuration list for PBXNativeTarget "Litle_MonsterUITests" */;
+			buildPhases = (
+				1C1C49411CB70B21004BE9AF /* Sources */,
+				1C1C49421CB70B21004BE9AF /* Frameworks */,
+				1C1C49431CB70B21004BE9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1C49471CB70B21004BE9AF /* PBXTargetDependency */,
+			);
+			name = Litle_MonsterUITests;
+			productName = Litle_MonsterUITests;
+			productReference = 1C1C49451CB70B21004BE9AF /* Litle_MonsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C1C491E1CB70B21004BE9AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = marty.k7;
+				TargetAttributes = {
+					1C1C49251CB70B21004BE9AF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1C1C49391CB70B21004BE9AF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1C1C49251CB70B21004BE9AF;
+					};
+					1C1C49441CB70B21004BE9AF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1C1C49251CB70B21004BE9AF;
+					};
+				};
+			};
+			buildConfigurationList = 1C1C49211CB70B21004BE9AF /* Build configuration list for PBXProject "Litle_Monster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C1C491D1CB70B21004BE9AF;
+			productRefGroup = 1C1C49271CB70B21004BE9AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C1C49251CB70B21004BE9AF /* Litle_Monster */,
+				1C1C49391CB70B21004BE9AF /* Litle_MonsterTests */,
+				1C1C49441CB70B21004BE9AF /* Litle_MonsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C1C49241CB70B21004BE9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1C49341CB70B21004BE9AF /* LaunchScreen.storyboard in Resources */,
+				1C1C49311CB70B21004BE9AF /* Assets.xcassets in Resources */,
+				1C1C492F1CB70B21004BE9AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1C49381CB70B21004BE9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1C49431CB70B21004BE9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1C49221CB70B21004BE9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1C492C1CB70B21004BE9AF /* ViewController.swift in Sources */,
+				1C1C492A1CB70B21004BE9AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1C49361CB70B21004BE9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1C493F1CB70B21004BE9AF /* Litle_MonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C1C49411CB70B21004BE9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1C494A1CB70B21004BE9AF /* Litle_MonsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C1C493C1CB70B21004BE9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C1C49251CB70B21004BE9AF /* Litle_Monster */;
+			targetProxy = 1C1C493B1CB70B21004BE9AF /* PBXContainerItemProxy */;
+		};
+		1C1C49471CB70B21004BE9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C1C49251CB70B21004BE9AF /* Litle_Monster */;
+			targetProxy = 1C1C49461CB70B21004BE9AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C1C492D1CB70B21004BE9AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1C492E1CB70B21004BE9AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C1C49321CB70B21004BE9AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C1C49331CB70B21004BE9AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C1C494C1CB70B21004BE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C1C494D1CB70B21004BE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C1C494F1CB70B21004BE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Litle_Monster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-Monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C1C49501CB70B21004BE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Litle_Monster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-Monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C1C49521CB70B21004BE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Litle_MonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-MonsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Litle_Monster.app/Litle_Monster";
+			};
+			name = Debug;
+		};
+		1C1C49531CB70B21004BE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Litle_MonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-MonsterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Litle_Monster.app/Litle_Monster";
+			};
+			name = Release;
+		};
+		1C1C49551CB70B21004BE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Litle_MonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-MonsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Litle_Monster;
+			};
+			name = Debug;
+		};
+		1C1C49561CB70B21004BE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Litle_MonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-MonsterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Litle_Monster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C1C49211CB70B21004BE9AF /* Build configuration list for PBXProject "Litle_Monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1C494C1CB70B21004BE9AF /* Debug */,
+				1C1C494D1CB70B21004BE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C1C494E1CB70B21004BE9AF /* Build configuration list for PBXNativeTarget "Litle_Monster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1C494F1CB70B21004BE9AF /* Debug */,
+				1C1C49501CB70B21004BE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C1C49511CB70B21004BE9AF /* Build configuration list for PBXNativeTarget "Litle_MonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1C49521CB70B21004BE9AF /* Debug */,
+				1C1C49531CB70B21004BE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C1C49541CB70B21004BE9AF /* Build configuration list for PBXNativeTarget "Litle_MonsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1C49551CB70B21004BE9AF /* Debug */,
+				1C1C49561CB70B21004BE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C1C491E1CB70B21004BE9AF /* Project object */;
+}
