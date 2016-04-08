@@ -14,6 +14,7 @@
 		1C1C49341CB70B21004BE9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1C49321CB70B21004BE9AF /* LaunchScreen.storyboard */; };
 		1C1C493F1CB70B21004BE9AF /* Litle_MonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C493E1CB70B21004BE9AF /* Litle_MonsterTests.swift */; };
 		1C1C494A1CB70B21004BE9AF /* Litle_MonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C49491CB70B21004BE9AF /* Litle_MonsterUITests.swift */; };
+		1C1C49581CB7315D004BE9AF /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C49571CB7315D004BE9AF /* DragImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C1C49451CB70B21004BE9AF /* Litle_MonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Litle_MonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1C49491CB70B21004BE9AF /* Litle_MonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litle_MonsterUITests.swift; sourceTree = "<group>"; };
 		1C1C494B1CB70B21004BE9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1C49571CB7315D004BE9AF /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1C1C49301CB70B21004BE9AF /* Assets.xcassets */,
 				1C1C49321CB70B21004BE9AF /* LaunchScreen.storyboard */,
 				1C1C49351CB70B21004BE9AF /* Info.plist */,
+				1C1C49571CB7315D004BE9AF /* DragImg.swift */,
 			);
 			path = Litle_Monster;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1C49581CB7315D004BE9AF /* DragImg.swift in Sources */,
 				1C1C492C1CB70B21004BE9AF /* ViewController.swift in Sources */,
 				1C1C492A1CB70B21004BE9AF /* AppDelegate.swift in Sources */,
 			);
@@ -403,6 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-Monster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -414,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.add.Litle-Monster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

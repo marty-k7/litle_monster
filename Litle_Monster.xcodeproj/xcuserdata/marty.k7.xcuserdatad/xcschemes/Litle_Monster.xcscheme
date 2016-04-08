@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1C1C49251CB70B21004BE9AF"
+               BuildableName = "Litle_Monster.app"
+               BlueprintName = "Litle_Monster"
+               ReferencedContainer = "container:Litle_Monster.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1C1C49391CB70B21004BE9AF"
+               BuildableName = "Litle_MonsterTests.xctest"
+               BlueprintName = "Litle_MonsterTests"
+               ReferencedContainer = "container:Litle_Monster.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1C1C49441CB70B21004BE9AF"
+               BuildableName = "Litle_MonsterUITests.xctest"
+               BlueprintName = "Litle_MonsterUITests"
+               ReferencedContainer = "container:Litle_Monster.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1C1C49251CB70B21004BE9AF"
+            BuildableName = "Litle_Monster.app"
+            BlueprintName = "Litle_Monster"
+            ReferencedContainer = "container:Litle_Monster.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1C1C49251CB70B21004BE9AF"
+            BuildableName = "Litle_Monster.app"
+            BlueprintName = "Litle_Monster"
+            ReferencedContainer = "container:Litle_Monster.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1C1C49251CB70B21004BE9AF"
+            BuildableName = "Litle_Monster.app"
+            BlueprintName = "Litle_Monster"
+            ReferencedContainer = "container:Litle_Monster.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
