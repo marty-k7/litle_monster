@@ -51,4 +51,18 @@ class MonsterImg: UIImageView {
         self.animationRepeatCount = 1 //kiek kartu pasikartoja, 0 = kartojasi nesustodama
         self.startAnimating()
     }
+    func walkAnimation() {
+        self.image = UIImage(named: "walk9.png")
+        self.animationImages = nil
+        
+        var imgAray = [UIImage]()
+        for var x = 1; x <= 9; x += 1 {
+            let img = UIImage(named: "walk\(x)")
+            imgAray.append(img!)
+        }
+        self.animationImages = imgAray
+        self.animationDuration = 1.5
+        self.animationRepeatCount = 0
+        self.startAnimating()
+    }
 }

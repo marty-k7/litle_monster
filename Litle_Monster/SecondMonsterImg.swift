@@ -15,6 +15,7 @@ class SecondMonsterImg: UIImageView {
     }
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        playIdleAnimation()
     }
     func playIdleAnimation() {
         self.image = UIImage(named: "secondMonsterIdle4.png")

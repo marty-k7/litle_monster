@@ -9,12 +9,14 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class SecondMonsterViewController: UIViewController {
     
-    @IBOutlet weak var monsterImg: MonsterImg!
+    
+    @IBOutlet weak var secondMonsterImg: SecondMonsterImg!
     @IBOutlet weak var foodImg: DragImg!
     @IBOutlet weak var heartImg: DragImg!
     @IBOutlet weak var coinImg: DragImg!
+    
     @IBOutlet weak var penalty1Img: UIImageView!
     @IBOutlet weak var penalty2Img: UIImageView!
     @IBOutlet weak var penalty3Img: UIImageView!
@@ -27,7 +29,7 @@ class ViewController: UIViewController {
     var sfxDeath: AVAudioPlayer!
     var bgSound: AVAudioPlayer!
     
-
+    
     
     
     let DIM_AlPH: CGFloat = 0.2 //sukuriam kostanta kuri leis obijektui buti beveik nematomui
@@ -39,12 +41,12 @@ class ViewController: UIViewController {
     
     var monsterHappy = false
     var currentItem: UInt32 = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initializeGame()
         
-       
+        
         
     }
     func initializeGame() {
@@ -53,16 +55,16 @@ class ViewController: UIViewController {
         penalty3Img.alpha = DIM_AlPH
         
         
-        foodImg.dropTarget = monsterImg
-        heartImg.dropTarget = monsterImg
-        coinImg.dropTarget = monsterImg
+        foodImg.dropTarget = secondMonsterImg
+        heartImg.dropTarget = secondMonsterImg
+        coinImg.dropTarget = secondMonsterImg
         
         foodImg.alpha = OPAQUE
         heartImg.alpha = OPAQUE
         coinImg.alpha = OPAQUE
+        coinImg.userInteractionEnabled = true
         foodImg.userInteractionEnabled = true
         heartImg.userInteractionEnabled = true
-        coinImg.userInteractionEnabled = true
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "itemDroppedOnCharacter:", name: "onTargetDropped", object: nil)  //duod notification jei veikia
         
@@ -92,8 +94,13 @@ class ViewController: UIViewController {
         
         
         startTimer()
-    
+        
     }
+    @IBAction func onReplayTapped(sender: AnyObject) {
+        restartGame()
+    }
+    
+    
     //jei uztempiam sirdi ar maista: persuka timer, padaro abu nematomus pasirinktam laikui
     // ir neleidzia naudotis
     
@@ -116,20 +123,19 @@ class ViewController: UIViewController {
             sfxBite.play()
         } else {
             sfxHeart.play()
-        }
+        
     }
-    @IBAction func onReplayTapped(sender: AnyObject) {
-        restartGame()
+        
     }
     
     func startTimer() {
         //jei yra pajungtas timeris, ji sustabdom
-        //tas reikalinga tam, kad kai pamaitinsim obijekta prasisuktu timeris per nauja 
+        //tas reikalinga tam, kad kai pamaitinsim obijekta prasisuktu timeris per nauja
         if timer != nil {
             timer.invalidate()
         }
         //kas tris sekundes pajungia funkcija "ChangeGameState"
-        timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: #selector(ViewController.changeGameState), userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: "changeGameState", userInfo: nil, repeats: true)
     }
     func changeGameState() {
         // jei neuztempiam sirdikes arba maisto uzdeda penalty
@@ -160,52 +166,50 @@ class ViewController: UIViewController {
         let rand = arc4random_uniform(3)
         if rand == 0 {
             foodImg.alpha = DIM_AlPH
+            coinImg.alpha = DIM_AlPH
+            coinImg.userInteractionEnabled = false
             foodImg.userInteractionEnabled = false
             
             heartImg.alpha = OPAQUE
             heartImg.userInteractionEnabled = true
-            
+        } else if rand == 1 {
+            heartImg.alpha = DIM_AlPH
             coinImg.alpha = DIM_AlPH
             coinImg.userInteractionEnabled = false
-        } else if rand == 1{
-            heartImg.alpha = DIM_AlPH
             heartImg.userInteractionEnabled = false
             
             foodImg.alpha = OPAQUE
             foodImg.userInteractionEnabled = true
-            
-            coinImg.alpha = DIM_AlPH
-            coinImg.userInteractionEnabled = false
         } else {
-            foodImg.alpha = DIM_AlPH
             heartImg.alpha = DIM_AlPH
-            coinImg.alpha = OPAQUE
-            
-            foodImg.userInteractionEnabled = false
             heartImg.userInteractionEnabled = false
+            
+            foodImg.alpha = DIM_AlPH
+            foodImg.userInteractionEnabled = false
+            coinImg.alpha = OPAQUE
             coinImg.userInteractionEnabled = true
         }
+        
         // padedam random skaiciu i currentItem
         currentItem = rand
         monsterHappy = false
         
         
     }
+        
     func gameOver()  {
         timer.invalidate()
-        monsterImg.playDeathAnimation()
+        secondMonsterImg.playDeathAnimation()
         sfxDeath.play()
         replayBtn.hidden = false
     }
     func restartGame() {
         replayBtn.hidden = true
         penalties = 0
-      
-        monsterImg.playIdleAnimation()
+        secondMonsterImg.playIdleAnimation()
         initializeGame()
-        
-        
-    }
+        }
     
 }
+
 
